@@ -4,19 +4,23 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2019/11/12/hello-world/"/>
-      <url>/2019/11/12/hello-world/</url>
+      <title>JAVA语言概述</title>
+      <link href="/2019/11/15/JAVA%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/"/>
+      <url>/2019/11/15/JAVA%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<center><h1>    Java  语言概述    </h1></center><h2 id="Java-语言发展史"><a href="#Java-语言发展史" class="headerlink" title="Java   语言发展史"></a><em>Java   语言发展史</em></h2><p>詹姆斯·高斯林（James  Gosling）</p><img src="/.io//图片1.png" style="zoom:50%;"><blockquote><p>1977年获得了加拿大卡尔加里大学计算机科学学士学位，1983年获得了美国卡内基梅隆大学计算机科学博士学位，毕业后到IBM工作，设计IBM第一代工作站NeWS系统，但不受重视。后来转至Sun公司，1990年，与Patrick，Naughton和Mike Sheridan等人合作“绿色计划”，后来发展一套语言叫做“Oak”，后改名为Java。</p><p>2009年被oracle（甲骨文）公司收购 现归于oracle旗下</p></blockquote><h2 id="Java-语言的平台版本（分类）"><a href="#Java-语言的平台版本（分类）" class="headerlink" title="Java   语言的平台版本（分类）"></a><em>Java   语言的平台版本（分类）</em></h2><ul><li><h4 id="J2SE-Java-2-Platform-Standard-Edition-标准版"><a href="#J2SE-Java-2-Platform-Standard-Edition-标准版" class="headerlink" title="J2SE(Java 2 Platform Standard Edition)标准版"></a>J2SE(Java 2 Platform Standard Edition)标准版</h4></li></ul><blockquote><p>是为开发普通桌面和商务应用程序提供的解决方案</p><p>该技术体系是其他两者的基础，可以完成一些桌面应用程序的开发</p></blockquote><ul><li><h4 id="J2ME-Java-2-Platform-Micro-Edition-小型版-小型操作系统"><a href="#J2ME-Java-2-Platform-Micro-Edition-小型版-小型操作系统" class="headerlink" title="J2ME(Java 2 Platform Micro Edition)小型版 小型操作系统"></a>J2ME(Java 2 Platform Micro Edition)小型版 小型操作系统</h4></li></ul><blockquote><p>是为开发电子消费产品和嵌入式设备提供的解决方案</p></blockquote><ul><li><h4 id="J2EE-Java-2-Platform-Enterprise-Edition-企业版"><a href="#J2EE-Java-2-Platform-Enterprise-Edition-企业版" class="headerlink" title="J2EE(Java 2 Platform Enterprise Edition)企业版"></a>J2EE(Java 2 Platform Enterprise Edition)企业版</h4></li></ul><blockquote><p>是为开发企业环境下的应用程序提供的一套解决方案<br>该技术体系中包含的技术如 Servlet、Jsp等，主要针对于Web应用程序开发</p></blockquote><h2 id="Java语言特点-简述概括"><a href="#Java语言特点-简述概括" class="headerlink" title="Java语言特点(简述概括)"></a><em>Java语言特点(简述概括)</em></h2><blockquote><p>简单性                      解释性<br>面向对象                  高性能<br>分布式处理              多线程<br>健壮性                      动态<br>开源                          跨平台 安全性</p></blockquote><h2 id="跨平台性"><a href="#跨平台性" class="headerlink" title="跨平台性"></a><em>跨平台性</em></h2><h4 id="什么是跨平台性？"><a href="#什么是跨平台性？" class="headerlink" title="什么是跨平台性？"></a><font color="red">什么是跨平台性？</font></h4><ul><li>通过Java语言编写的应用程序在不同的系统平台上都可以运行。</li></ul><h4 id="原理是什么？"><a href="#原理是什么？" class="headerlink" title="原理是什么？"></a><font color="red">原理是什么？</font></h4><blockquote><p>只要在需要运行java应用程序的操作系统上，先安装一个Java虚拟机(JVM Java Virtual Machine)即可。由JVM来负责Java程序在该系统中的运行。</p><img src="/.io//图片2.png" style="zoom:50%;"><p>因为有了JVM，所以同一个Java程序在三个不同的操作系统中都可以执行。这样就实现了Java程序的跨平台性。也称为Java具有良好的可移植性。</p></blockquote><h2 id="JRE与JDK"><a href="#JRE与JDK" class="headerlink" title="JRE与JDK"></a><em>JRE与JDK</em></h2><h4 id="JRE-Java-Runtime-Environment-Java运行环境"><a href="#JRE-Java-Runtime-Environment-Java运行环境" class="headerlink" title="JRE(Java Runtime Environment    Java运行环境)"></a>JRE(Java Runtime Environment    Java运行环境)</h4><blockquote><p>包括Java虚拟机(JVM Java Virtual Machine)和Java程序所需的核心类库等，如果想要运行一个开发好的Java程序，计算机中只需要安装JRE即可。（只用来运行）</p></blockquote><h4 id="JDK-Java-Development-Kit-Java开发工具包"><a href="#JDK-Java-Development-Kit-Java开发工具包" class="headerlink" title="JDK(Java Development Kit    Java开发工具包)"></a>JDK(Java Development Kit    Java开发工具包)</h4><blockquote><p>JDK是提供给Java开发人员使用的，其中包含了java的开发工具，也包括了JRE。所以安装了JDK，就不用在单独安装JRE了。</p><p>其中的开发工具：编译工具(javac.exe)  打包工具(jar.exe)等（开发和运行）</p></blockquote><h3 id="简单而言：使用JDK开发完成的java程序，交给JRE去运行。"><a href="#简单而言：使用JDK开发完成的java程序，交给JRE去运行。" class="headerlink" title="简单而言：使用JDK开发完成的java程序，交给JRE去运行。"></a><font color="red">简单而言：使用JDK开发完成的java程序，交给JRE去运行。</font></h3><h2 id="JDK的下载-安装"><a href="#JDK的下载-安装" class="headerlink" title="JDK的下载,安装"></a><em>JDK的下载,安装</em></h2><h4 id="下载JDK"><a href="#下载JDK" class="headerlink" title="下载JDK"></a>下载JDK</h4><blockquote><p>通过官方网站获取JDK<a href="http://www.oracle.com，针对不同操作系统，下载不同的JDK版本识别计算机的操作系统。" target="_blank" rel="noopener">http://www.oracle.com，针对不同操作系统，下载不同的JDK版本识别计算机的操作系统。</a></p></blockquote><h4 id="JDK安装"><a href="#JDK安装" class="headerlink" title="JDK安装"></a>JDK安装</h4><blockquote><p>傻瓜式安装，下一步即可。</p><p>建议：安装路径不要有中文或者特殊符号如空格等。最好目录统一。</p><p>当提示安装JRE时，可以选择不安装。</p></blockquote><h2 id="第一个JAVA程序-Hello-World"><a href="#第一个JAVA程序-Hello-World" class="headerlink" title="第一个JAVA程序 Hello World"></a><em>第一个JAVA程序 Hello World</em></h2><h4 id="开发工具："><a href="#开发工具：" class="headerlink" title="开发工具："></a>开发工具：</h4><p>编写Java程序可以使用很多种工具</p><ul><li><blockquote><p>Eclipse</p><p>MyEclipse</p><p>IDEA等等</p></blockquote></li></ul><p>还可以使用</p><ul><li><blockquote><p>notepad(微软操作系统自带)</p><p>Notepad++</p><p>记事本…</p></blockquote></li></ul><h4 id="第一个java程序"><a href="#第一个java程序" class="headerlink" title="第一个java程序"></a>第一个java程序</h4><blockquote><p>首先定义一个类</p><p>class 类名</p><p>在类定义后加上一对大括号{}</p><p>在大括号中间添加一个主(main)方法/函数</p><p>public static void main(String [] args){ }</p><p>在主方法的大括号中间添加一行输出语句</p><p>System.out.println(“hello world”);</p><p>代码如下：</p><font color="red"><p>class HelloWorld{</p><p>public static void main(String [] args){</p><p>​                System.out.println(“Hello World”);</p><p>​        }</p><p>}</p></font><p></p></blockquote><h4 id="程序解析"><a href="#程序解析" class="headerlink" title="程序解析"></a>程序解析</h4><blockquote><p>编写完成的代码，文件名后缀应该为.java结尾 代表这是一个java文件 </p><p>在命令行模式中，输入javac命令对源代码进行编译，生成字节码文件javac 源文件名.java</p><p>编译完成后，如果没有报错信息，输入java命令对class字节码文件进行解释运行,执行时不需要添加.class扩展名</p></blockquote><h4 id="执行流程图"><a href="#执行流程图" class="headerlink" title="执行流程图"></a>执行流程图</h4><img src="/.io//图片5.png" style="zoom:50%;">]]></content>
       
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+      </categories>
       
       
         <tags>
             
-            <tag> hexo </tag>
-            
-            <tag> 博客 </tag>
+            <tag> Java </tag>
             
         </tags>
       
@@ -26,8 +30,8 @@
     
     <entry>
       <title>第一次用markdown语法写博客</title>
-      <link href="/2019/11/11/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%94%A8markdown%E8%AF%AD%E6%B3%95%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
-      <url>/2019/11/11/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%94%A8markdown%E8%AF%AD%E6%B3%95%E5%86%99%E5%8D%9A%E5%AE%A2/</url>
+      <link href="/2019/07/14/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%94%A8markdown%E8%AF%AD%E6%B3%95%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2019/07/14/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%94%A8markdown%E8%AF%AD%E6%B3%95%E5%86%99%E5%8D%9A%E5%AE%A2/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -46,6 +50,27 @@
             <tag> 学习 </tag>
             
             <tag> 工作 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2019/07/12/hello-world/"/>
+      <url>/2019/07/12/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 博客 </tag>
             
         </tags>
       
