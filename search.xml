@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>JAVA基础语法（上部）</title>
+      <link href="/2019/07/16/JAVA%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%EF%BC%88%E4%B8%8A%E9%83%A8%EF%BC%89/"/>
+      <url>/2019/07/16/JAVA%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%EF%BC%88%E4%B8%8A%E9%83%A8%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<p>很多小伙伴都在用markdown写东西，却苦于博客图片无法正常显示，由于大多数博客使用的图片较少如果选择付费图床并不合算，所以自己搭建一个免费的图床成为最佳选择，本文主要介绍GitHub Page图床的搭建过程。</p><p>java基础语法详解</p><a id="more"></a><h1 id="JAVA语言基础"><a href="#JAVA语言基础" class="headerlink" title="JAVA语言基础"></a>JAVA语言基础</h1><h2 id="关键字（保留字）"><a href="#关键字（保留字）" class="headerlink" title="关键字（保留字）"></a>关键字（保留字）</h2><h3 id="关键字概述"><a href="#关键字概述" class="headerlink" title="关键字概述"></a>关键字概述</h3><p>被java语言赋予特定含义的字母（Java语言组成部分）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JAVA </tag>
+            
+            <tag> 学习 </tag>
+            
+            <tag> 专业 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>GitHub免费图床的使用</title>
       <link href="/2019/07/15/GitHub%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
       <url>/2019/07/15/GitHub%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
@@ -72,9 +101,9 @@
       
         <tags>
             
-            <tag> 生活 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 生活 </tag>
             
             <tag> 工作 </tag>
             
